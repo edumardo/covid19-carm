@@ -9,7 +9,7 @@ You can explore and build models in this [Kaggle page](https://www.kaggle.com/ed
 The dataset has one row per day, from the official twitter account of Gobierno de la Región de Murcia, Spain. They publish the daily account via tweet, in an attached image.
 They are reporting the information since March 10th, with the following columns:
 
-|Row   | Description                                                       | Format             |
+|Column| Description                                                       | Format             |
 |------|-------------------------------------------------------------------|--------------------|
 |Fecha | Date of the row, corresponding to the last information of the day | DD/MM/YYYY HH24:MM |
 |Personas afectadas | Active cases | Number |
