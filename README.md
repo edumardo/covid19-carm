@@ -12,7 +12,7 @@ They are reporting the information since March 10th, with the following columns:
 |Column| Description                                                       | Format             |
 |------|-------------------------------------------------------------------|--------------------|
 |Fecha | Date of the row, corresponding to the last information of the day | DD/MM/YYYY HH24:MM |
-|Personas afectadas | Active cases | Number |
+|Personas afectadas | Affected people | Number |
 |Aislamiento domiciliario | Home insulation | Number |
 |Ingresos | Hospitalized patients | Number |
 |Ingresos en cuidados intensivos | Intensive care patients | Number |
