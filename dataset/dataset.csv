@@ -1,13 +1,13 @@
-Fecha,Personas afectadas,Aislamiento domiciliario,Ingresos,Ingresos en cuidados intensivos,Personas curadas,Fallecidos,Pruebas realizadas
-21/03/2020 21:00,296,218,78,16,1,1,2300
-20/03/2020 21:00,240,179,61,14,1,1,2100
-19/03/2020 21:00,215,177,38,7,1,0,2000
-18/03/2020 21:00,168,137,31,5,1,0,1900
-17/03/2020 21:00,145,122,18,5,1,0,1800
-16/03/2020 21:00,103,82,18,3,1,0,1500
-15/03/2020 17:00,78,63,13,2,0,0,1000
-14/03/2020 20:00,53,39,12,2,0,0,950
-13/03/2020 20:00,39,30,7,2,0,0,800
-12/03/2020 20:00,29,25,3,1,0,0,550
-11/03/2020 20:00,22,18,4,0,0,0,400
-10/03/2020 20:00,11,8,3,0,0,0,260
+Fecha,Personas afectadas,Aislamiento domiciliario,Ingresos,Ingresos en cuidados intensivos,Personas curadas,Fallecidos,Pruebas realizadas,Fuente
+21/03/2020 21:00,296,218,78,16,1,1,2300,https://twitter.com/regiondemurcia/status/1241457576006615041
+20/03/2020 21:00,240,179,61,14,1,1,2100,https://twitter.com/regiondemurcia/status/1241092845550866437
+19/03/2020 21:00,215,177,38,7,1,0,2000,https://twitter.com/regiondemurcia/status/1240730641504886784
+18/03/2020 21:00,168,137,31,6,1,0,1900,https://twitter.com/regiondemurcia/status/1240367705506578433
+17/03/2020 21:00,145,122,18,5,1,0,1800,https://twitter.com/regiondemurcia/status/1240007071711494148
+16/03/2020 21:00,103,82,18,3,1,0,1500,https://twitter.com/regiondemurcia/status/1239866298571554824
+15/03/2020 17:00,78,63,13,2,0,0,1000,https://twitter.com/regiondemurcia/status/1239244265189978116
+14/03/2020 20:00,53,39,12,2,0,0,950,https://twitter.com/regiondemurcia/status/1238902095073267714
+13/03/2020 20:00,39,30,7,2,0,0,800,https://twitter.com/regiondemurcia/status/1238544619018825729
+12/03/2020 20:00,29,25,3,1,0,0,550,https://twitter.com/regiondemurcia/status/1238177717012627457
+11/03/2020 20:00,22,18,4,0,0,0,400,https://twitter.com/regiondemurcia/status/1237834394095812608
+10/03/2020 20:00,11,8,3,0,0,0,260,https://twitter.com/regiondemurcia/status/1237456370582118400
