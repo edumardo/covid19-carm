@@ -14,7 +14,7 @@ They are reporting the information since March 10th, with the following columns:
 |Fecha | Date of the row, corresponding to the last information of the day | DD/MM/YYYY HH24:MM |
 |Personas afectadas | Affected people | Number |
 |Aislamiento domiciliario | Home insulation | Number |
-|Ingresos | Hospitalized patients | Number |
+|Ingresos totales | Hospitalized patients | Number |
 |Ingresos en cuidados intensivos | Intensive care patients | Number |
 |Personas curadas | Recovered persons | Number |
 |Fallecidos | Deaths | Number |
