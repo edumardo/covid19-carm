@@ -19,6 +19,7 @@ They are reporting the information since March 10th, with the following columns:
 |Personas curadas | Recovered persons | Number |
 |Fallecidos | Deaths | Number |
 |Pruebas realizadas | Tests performed | Number |
+| Fuente | Data source (tweet from @regiondemurcia) | text |
 
 ### Acknowledgements
 
