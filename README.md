@@ -2,7 +2,7 @@
 
 COVID-19 dataset based on data from Gobierno de la Región de Murcia, Spain. Data extracted from the daily tweets of the [official twitter account](https://twitter.com/regiondemurcia) of Gobierno de la Región de Murcia.
 
-The data comes from this [github repository](https://github.com/edumardo/covid19-carm), and you can explore it and build models in this [Kaggle page](https://www.kaggle.com/edumardo/covid19-dataset-from-regin-de-murcia-spain).
+The data comes from this [github repository](https://github.com/edumardo/covid19-carm), and you can explore it and build models in this [Kaggle page](https://www.kaggle.com/edumardo/covid19-dataset-from-regin-de-murcia-spain). I've done several charts created with the dataset on [github.com/edumardo/covid19-carm](https://github.com/edumardo/covid19-carm).
 
 ### Content
 
