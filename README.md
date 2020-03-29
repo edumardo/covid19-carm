@@ -13,7 +13,7 @@ The data comes from this [github repository](https://github.com/edumardo/covid19
 
 |Column| Description                                                       | Format             |
 |------|-------------------------------------------------------------------|--------------------|
-|Fecha | Date of the row, corresponding to the last information of the day | DD/MM/YYYY HH24:MM |
+|Fecha | Date of the row, corresponding to the last information of the day | DD/MM/YYYY |
 |Personas afectadas | Affected people | Number |
 |Aislamiento domiciliario | Home insulation | Number |
 |Ingresos totales | Hospitalized patients | Number |
