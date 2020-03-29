@@ -25,16 +25,16 @@ Basada en los informes epidemiológicos publicados por el portal [MurciaSalud](h
 |Columna| Descripción |
 |-------|-------------|
 | Pruebas realizadas | Pruebas diagnósticas realizadas para la detección de coronavirus |
-| Casos detallados |  Casos de los que se dispone información detallada | Número |
+| Casos detallados |  Casos de los que se dispone información detallada |
 
 <iframe title="" aria-label="Interactive line chart" id="datawrapper-chart-DGmKZ" src="//datawrapper.dwcdn.net/DGmKZ/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
 </script>
 
 |Columna| Descripción |
 |-------|-------------|
-| Importados | Casos importados de otro país u otra CCAA | % |
-| Autóctonos relacionado con un caso | Casos vinculados epidemiológicamente a un caso previo de fuera o dentro de la Región (casos secundarios) | % |
-| Autóctonos sin vinculo epidemiológico | Casos autóctonos sin vínculo epidemiológico claro (indica transmisión comunitaria en la Región) | % |
+| Importados | Casos importados de otro país u otra CCAA |
+| Autóctonos relacionado con un caso | Casos vinculados epidemiológicamente a un caso previo de fuera o dentro de la Región (casos secundarios) |
+| Autóctonos sin vinculo epidemiológico | Casos autóctonos sin vínculo epidemiológico claro (indica transmisión comunitaria en la Región) |
 
 <iframe title="" aria-label="Stacked Column Chart" id="datawrapper-chart-hLp09" src="//datawrapper.dwcdn.net/hLp09/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="579"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
 </script>
