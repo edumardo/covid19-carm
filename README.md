@@ -1,13 +1,15 @@
 ### Context
 
-COVID-19 dataset based on data from Gobierno de la Región de Murcia, Spain. Data extracted from the daily tweets of the [official twitter account](https://twitter.com/regiondemurcia) of Gobierno de la Región de Murcia.
+COVID-19 datasets based on data from Gobierno de la Región de Murcia, Spain. Data extracted from:
 
-The data comes from this [github repository](https://github.com/edumardo/covid19-carm), and you can explore it and build models in this [Kaggle page](https://www.kaggle.com/edumardo/covid19-dataset-from-regin-de-murcia-spain). I've done several charts created with the dataset on [github.com/edumardo/covid19-carm](https://edumardo.github.io/covid19-carm/).
+* Daily tweets of the [official twitter account](https://twitter.com/regiondemurcia) of Gobierno de la Región de Murcia.
+* Epidemiological reports in pdf format from [MurciaSalud](http://www.murciasalud.es/pagina.php?id=458869), Consejería de Salud de la Región de Murcia.
+
+The data comes from this [github repository](https://github.com/edumardo/covid19-carm), and you can explore it and build models in this [Kaggle page](https://www.kaggle.com/edumardo/covid19-dataset-from-regin-de-murcia-spain). I've done several charts created with the dataset on [edumardo.github.io/covid19-carm](https://edumardo.github.io/covid19-carm/).
 
 ### Content
 
-The dataset has one row per day, from the official twitter account of Gobierno de la Región de Murcia, Spain. They publish the daily account via tweet, in an attached image.
-They are reporting the information since March 10th, with the following columns:
+#### dataset.csv
 
 |Column| Description                                                       | Format             |
 |------|-------------------------------------------------------------------|--------------------|
@@ -19,12 +21,24 @@ They are reporting the information since March 10th, with the following columns:
 |Personas curadas | Recovered persons | Number |
 |Fallecidos | Deaths | Number |
 |Pruebas realizadas | Tests performed | Number |
-| Fuente | Data source (tweet from @regiondemurcia) | text |
+| Fuente | Data source (tweet from @regiondemurcia) | url |
+
+#### IE-origen-del-contagio.csv
+
+|Columna| Descripción | Formato |
+|-------|-------------|---------|
+| Pruebas realizadas | Pruebas diagnósticas realizadas para la detección de coronavirus | Número |
+| Casos detallados |  Casos de los que se dispone información detallada | Número |
+| Importados | Casos importados de otro país u otra CCAA | % |
+| Autóctonos relacionado con un caso | Casos vinculados epidemiológicamente a un caso previo de fuera o dentro de la Región (casos secundarios) | % |
+| Autóctonos sin vinculo epidemiológico | Casos autóctonos sin vínculo epidemiológico claro (indica transmisión comunitaria en la Región) | % |
+| Municipios afectados | Número de municipios en los que se han registrado casos | Número |
+| Fuente | Enlace al informe epidemiológico (documento pdf de MurciaSalud) | url |
 
 ### Acknowledgements
 
-I compile the data checking the tweets by hand, hence, I try to be careful. 
+I compile the data checking by hand, hence, I try to be careful. 
 
 ### Inspiration
 
-The Gobierno de la Región de Murcia provides the information about COVID-19 by an attached image in a tweet without historical context. Therefore, it's not easy to know how the virus is growing.
+The Gobierno de la Región de Murcia provides the information about COVID-19 by an attached image in a tweet or in a pdf document, without historical context. Therefore, it's not easy to know how the virus is growing.
