@@ -16,6 +16,11 @@ Basada en los datos proporcionados por el Gobierno de la Región de Murcia, obte
 <iframe title="" aria-label="Stacked Column Chart" id="datawrapper-chart-x5IaJ" src="//datawrapper.dwcdn.net/x5IaJ/7/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
 </script>
 
+### Test realizados
+
+<iframe title="" aria-label="Column Chart" id="datawrapper-chart-mH9hb" src="//datawrapper.dwcdn.net/mH9hb/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="500"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+</script>
+
 ## Información epidemiológica
 
 Basada en los informes epidemiológicos publicados por el portal [MurciaSalud](http://www.murciasalud.es/pagina.php?id=458869) de la Consejería de Salud de la Región de Murcia. El informe en formato pdf se actualiza los lunes, miercoles y viernes ([ejemplo](http://www.murciasalud.es/archivo.php?id=458891)).
@@ -27,7 +32,7 @@ Basada en los informes epidemiológicos publicados por el portal [MurciaSalud](h
 | Pruebas realizadas | Pruebas diagnósticas realizadas para la detección de coronavirus |
 | Casos detallados |  Casos de los que se dispone información detallada |
 
-<iframe title="" aria-label="Interactive line chart" id="datawrapper-chart-DGmKZ" src="//datawrapper.dwcdn.net/DGmKZ/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+<iframe title="" aria-label="Interactive line chart" id="datawrapper-chart-DGmKZ" src="//datawrapper.dwcdn.net/DGmKZ/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
 </script>
 
 |Columna| Descripción |
