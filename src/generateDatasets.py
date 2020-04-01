@@ -24,6 +24,7 @@ infoDiaria['Pruebas realizadas'] \
 
 # Casos según el origen del contagio (odc)
 DFodc = pd.read_csv(origenDelContagioPath, index_col='Fecha')
+DFodc.index = pd.to_datetime(DFodc.index, format='%d/%m/%Y')
 DFodc = DFodc.sort_values(by=['Fecha'], ascending=True)
 
 fileName = 'DFodcTipos.csv'
