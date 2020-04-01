@@ -10,7 +10,7 @@ infoDiaria = infoDiaria.sort_values(by=['Fecha'], ascending=True)
 
 # Casos diarios
 fileName = 'DFcasosDiarios.csv'
-infoDiaria[['Personas afectadas', 'Aislamiento domiciliario', 'Ingresos totales', 'Ingresos en cuidados intensivos', 'Personas curadas', 'Fallecidos']] \
+infoDiaria[['Personas afectadas', 'Casos positivos desde el inicio', 'Aislamiento domiciliario', 'Ingresos totales', 'Ingresos en cuidados intensivos', 'Personas curadas', 'Fallecidos']] \
     .diff() \
     .fillna(infoDiaria) \
     .astype('int32') \
