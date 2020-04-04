@@ -22,6 +22,11 @@ fileName = 'DFtestRealizados.csv'
 infoDiaria['Pruebas realizadas'] \
     .to_csv(generatedPath + fileName, index_label='Fecha')
 
+# Casos positivos
+fileName = 'DFcasosPositivos.csv'
+infoDiaria[['Personas afectadas', 'Personas curadas', 'Fallecidos']] \
+    .to_csv(generatedPath + fileName, index_label='Fecha')
+
 # Casos según el origen del contagio (odc)
 DFodc = pd.read_csv(origenDelContagioPath, index_col='Fecha')
 DFodc.index = pd.to_datetime(DFodc.index, format='%d/%m/%Y')
