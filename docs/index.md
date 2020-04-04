@@ -10,7 +10,7 @@ Basada en los datos proporcionados por el Gobierno de la Región de Murcia, obte
 
 Casos positivos desde el inicio = Personas afectadas + Personas curadas + Fallecidos
 
-<iframe title="" aria-label="Interactive line chart" id="datawrapper-chart-IMsHn" src="//datawrapper.dwcdn.net/IMsHn/10/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="500"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+<iframe title="" aria-label="Interactive line chart" id="datawrapper-chart-IMsHn" src="//datawrapper.dwcdn.net/IMsHn/12/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="500"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
 </script>
 
 ## Casos nuevos
@@ -21,6 +21,13 @@ Casos positivos desde el inicio = Personas afectadas + Personas curadas + Fallec
 ## Test realizados
 
 <iframe title="" aria-label="Column Chart" id="datawrapper-chart-mH9hb" src="//datawrapper.dwcdn.net/mH9hb/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="250"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+</script>
+
+## Casos positivos
+
+Casos positivos = Personas afectadas + Personas curadas + Fallecidos
+
+<iframe title="" aria-label="Interactive area chart" id="datawrapper-chart-37HLf" src="//datawrapper.dwcdn.net/37HLf/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
 </script>
 
 # Información epidemiológica
