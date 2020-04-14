@@ -17,9 +17,12 @@ infoDiaria[['Personas afectadas', 'Casos positivos desde el inicio', 'Aislamient
     .T \
     .to_csv(generatedPath + fileName, index_label='Fecha')
 
-# Test realizados
+# Test diarios realizados
 fileName = 'DFtestRealizados.csv'
 infoDiaria['Pruebas realizadas'] \
+    .diff() \
+    .fillna(infoDiaria['Pruebas realizadas']) \
+    .astype('int32') \
     .to_csv(generatedPath + fileName, index_label='Fecha')
 
 # Casos positivos
