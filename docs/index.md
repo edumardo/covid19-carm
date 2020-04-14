@@ -1,6 +1,6 @@
 Gráficas del impacto por COVID-19 en la Región de Murcia. Los datos se recopilan manualmente de forma diaria y están disponibles en el repositorio [covid19-carm](https://github.com/edumardo/covid19-carm). En ningún caso se trata de información oficial ni deben ser considerada como tal.
 
-Recuerda que las gráficas son dinámicas y puedes filtra pulsando sobre ellas o la leyenda.
+Recuerda que las gráficas son dinámicas y puedes filtrar pulsando sobre ellas o la leyenda.
 
 # Información diaria
 
@@ -25,9 +25,18 @@ Casos positivos desde el inicio = Personas afectadas + Personas curadas + Fallec
 
 ## Casos positivos
 
-Casos positivos = Personas afectadas + Personas curadas + Fallecidos
+Casos positivos = Personas afectadas + Personas curadas + Fallecidos.
 
 <iframe title="" aria-label="Interactive area chart" id="datawrapper-chart-37HLf" src="//datawrapper.dwcdn.net/37HLf/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
+</script>
+
+## Desenlace de casos cerrados (% personas curadas vs % fallecidos)
+
+Fallecidos y curados totales acumulados (en %) respecto al número acumulado de casos cerrados.
+
+Casos cerrados = Personas curadas + Fallecidos. 
+
+<iframe title="" aria-label="Interactive line chart" id="datawrapper-chart-VOCq9" src="//datawrapper.dwcdn.net/VOCq9/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
 </script>
 
 # Información epidemiológica
