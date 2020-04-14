@@ -30,6 +30,14 @@ fileName = 'DFcasosPositivos.csv'
 infoDiaria[['Personas afectadas', 'Personas curadas', 'Fallecidos']] \
     .to_csv(generatedPath + fileName, index_label='Fecha')
 
+# Desenlace de casos cerrados (% curados vs % fallecidos)
+fileName = 'DFcasosCerrados.csv'
+casosCerrados = infoDiaria['Personas curadas'] + infoDiaria['Fallecidos']
+ratioCuradas = round(infoDiaria['Personas curadas'] * 100 / casosCerrados, 2).fillna(0)
+ratioFallecidos = round(infoDiaria['Fallecidos'] * 100 / casosCerrados, 2).fillna(0)
+pd.DataFrame({'% Personas curadas': ratioCuradas, '% Fallecidos': ratioFallecidos}) \
+    .to_csv(generatedPath + fileName, index_label='Fecha')
+
 # Casos según el origen del contagio (odc)
 DFodc = pd.read_csv(origenDelContagioPath, index_col='Fecha')
 DFodc.index = pd.to_datetime(DFodc.index, format='%d/%m/%Y')
