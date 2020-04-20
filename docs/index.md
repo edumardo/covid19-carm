@@ -18,7 +18,11 @@ Casos positivos desde el inicio = Personas afectadas + Personas curadas + Fallec
 <iframe title="" aria-label="Stacked Column Chart" id="datawrapper-chart-x5IaJ" src="//datawrapper.dwcdn.net/x5IaJ/12/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
 </script>
 
-## Test diarios realizados
+## Pruebas diarias realizadas
+
+Desde el 17/04/2020 se especifica el tipo de prueba realizada, PCR o anticuerpos.
+
+Pruebas realizadas = PCR + Anticuerpos.
 
 <iframe title="" aria-label="Column Chart" id="datawrapper-chart-mH9hb" src="//datawrapper.dwcdn.net/mH9hb/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="250"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
 </script>

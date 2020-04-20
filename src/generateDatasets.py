@@ -1,4 +1,5 @@
 import pandas as pd
+import datetime as dt
 
 generatedPath = '../dataset/generated/'
 datasetPath = '../dataset/dataset.csv'
@@ -7,6 +8,8 @@ origenDelContagioPath = '../dataset/IE-origen-del-contagio.csv'
 infoDiaria = pd.read_csv(datasetPath, index_col='Fecha')
 infoDiaria.index = pd.to_datetime(infoDiaria.index, format='%d/%m/%Y')
 infoDiaria = infoDiaria.sort_values(by=['Fecha'], ascending=True)
+
+fechaCambioDetalle = dt.datetime.strptime('18/04/2020', '%d/%m/%Y')
 
 # Casos diarios
 fileName = 'DFcasosDiarios.csv'
@@ -19,10 +22,16 @@ infoDiaria[['Personas afectadas', 'Casos positivos desde el inicio', 'Aislamient
 
 # Test diarios realizados
 fileName = 'DFtestRealizados.csv'
-infoDiaria['Pruebas realizadas'] \
-    .diff() \
-    .fillna(infoDiaria['Pruebas realizadas']) \
-    .astype('int32') \
+totalTestRealizados = infoDiaria['Pruebas realizadas'].diff().fillna(infoDiaria['Pruebas realizadas']).astype('int32')
+totalTestRealizados.where(totalTestRealizados.index < fechaCambioDetalle, 0, True)
+detallePRCRealizados = infoDiaria['Pruebas realizadas (PCR)'].diff().fillna(0).astype('int32')
+detalleAntiRealizados = infoDiaria['Pruebas realizadas (Anticuerpos)'].diff().fillna(0).astype('int32')
+testRealizados = pd.DataFrame( \
+    {   'Pruebas realizadas': totalTestRealizados, \
+        'Pruebas realizadas (PCR)': detallePRCRealizados, \
+        'Pruebas realizadas (Anticuerpos)' : detalleAntiRealizados
+    }) \
+    .T \
     .to_csv(generatedPath + fileName, index_label='Fecha')
 
 # Casos positivos
