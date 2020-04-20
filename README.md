@@ -15,6 +15,8 @@ The data comes from this [github repository](https://github.com/edumardo/covid19
 |------|-------------------------------------------------------------------|--------------------|
 |Fecha | Date of the row, corresponding to the last information of the day | DD/MM/YYYY |
 |Casos positivos desde el inicio | Personas afectadas + Personas curadas + Fallecidos | Number |
+|Casos positivos desde el inicio (PRC)| | Number |
+|Casos positivos desde el inicio (Anticuerpos) | | Number |
 |Personas afectadas | Affected people | Number |
 |Aislamiento domiciliario | Home insulation | Number |
 |Ingresos totales | Hospitalized patients | Number |
@@ -22,6 +24,8 @@ The data comes from this [github repository](https://github.com/edumardo/covid19
 |Personas curadas | Recovered persons | Number |
 |Fallecidos | Deaths | Number |
 |Pruebas realizadas | Tests performed | Number |
+|Pruebas realizadas (PRC) | PRC tests | Number |
+|Pruebas realizadas (Anticuerpos) | Antibodies tests | Number |
 | Fuente | Data source (tweet from @regiondemurcia) | url |
 
 #### IE-origen-del-contagio.csv
