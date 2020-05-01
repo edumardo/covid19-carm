@@ -11,13 +11,22 @@ infoDiaria = infoDiaria.sort_values(by=['Fecha'], ascending=True)
 
 fechaCambioDetalle = dt.datetime.strptime('18/04/2020', '%d/%m/%Y')
 
-# Casos diarios
+# Variación diaria
 fileName = 'DFcasosDiarios.csv'
 infoDiaria[['Personas afectadas', 'Casos positivos desde el inicio', 'Aislamiento domiciliario', 'Ingresos totales', 'Ingresos en cuidados intensivos', 'Personas curadas', 'Fallecidos']] \
     .diff() \
     .fillna(infoDiaria) \
     .astype('int32') \
     .T \
+    .to_csv(generatedPath + fileName, index_label='Fecha')
+
+# Detalle de casos positivos
+fileName = 'DFdetalleCasosPositivos.csv'
+infoDiaria[['Casos positivos desde el inicio (PCR)', 'Casos positivos desde el inicio (Anticuerpos)']] \
+    .diff() \
+    .dropna() \
+    .astype('int32') \
+    .rename(columns={'Casos positivos desde el inicio (PCR)': 'PCR', 'Casos positivos desde el inicio (Anticuerpos)': 'Anticuerpos'}) \
     .to_csv(generatedPath + fileName, index_label='Fecha')
 
 # Test diarios realizados
