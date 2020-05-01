@@ -13,7 +13,7 @@ Casos positivos desde el inicio = Personas afectadas + Personas curadas + Fallec
 <iframe title="" aria-label="Interactive line chart" id="datawrapper-chart-IMsHn" src="//datawrapper.dwcdn.net/IMsHn/12/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="500"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
 </script>
 
-## Casos nuevos
+## Variación diaria
 
 <iframe title="" aria-label="Stacked Column Chart" id="datawrapper-chart-x5IaJ" src="//datawrapper.dwcdn.net/x5IaJ/12/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
 </script>
