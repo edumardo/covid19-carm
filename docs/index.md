@@ -6,7 +6,7 @@ Recuerda que las gráficas son dinámicas y puedes filtrar pulsando sobre ellas 
 
 Basada en los datos proporcionados por el Gobierno de la Región de Murcia, obtenidos a partir de su correspondiente cuenta oficial de Twitter, [@regiondemurcia](https://twitter.com/regiondemurcia). El Gobierno publica de forma diaria un tweet con los totales acumulados hasta las 21:00 de ese mismo día ([ejemplo](https://twitter.com/regiondemurcia/status/1243630437232246785)).
 
-Desde el 18/05/2020, el Gobierno de la Región de Murcia, por orden del ministerio de Sanidad, se computa únicamente los casos positivos por PCR.
+Desde el 18/05/2020, el Gobierno de la Región de Murcia, por orden del ministerio de Sanidad, computa únicamente los casos positivos por PCR.
 
 ## Totales acumulados
 
